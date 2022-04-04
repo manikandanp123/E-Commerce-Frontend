@@ -1,0 +1,204 @@
+.midlogin{
+    display: flex;
+    width: 50wh;
+    /* background-color: black; */
+}
+.ml1{
+    background-image: url('../components/img/bg1.jpeg');
+    width: 50%;
+    background-size: cover;
+    height: 300px;
+}
+.ml2{
+    background-color: lightblue;
+    margin-top: 100px;
+    width: 50%;
+    height: 400px;
+
+}
+.leftmid1{
+    position: relative;
+    top: 40px;
+    left: 130px;
+    text-align: left;
+    font: normal normal 900 62px/80px Avenir;
+    letter-spacing: 2.48px;
+    color: green;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.ml1 p{
+    position: relative;
+    top: 50px;
+    left: 200px;
+    text-align: left;
+    font: normal normal normal 20px/32px Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.ml12{
+    border: 1px solid blue;
+    background-color: lightblue;
+    color: red;
+    height: 50px;
+    width: 130px;
+    position: relative;
+    top: 50px;
+    left: 260px;
+    font-size: 400;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.ml12:hover{
+    background-color: yellow;
+    color: black;
+}
+.ml2 h2{
+    position: relative;
+    top: -110px;
+    font: normal normal normal 20px/32px Avenir;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    color: blue;
+    text-transform: capitalize;
+    opacity: 1;
+    font-weight: bolder;
+    font-size: xxx-large;
+}
+label{
+    text-align: left;
+    font: normal normal normal 20px/32px Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+}
+input{
+    color: green;
+    height: 30px;
+    width: 380px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid green;
+}
+#btn{
+    border: 2px solid green;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+}
+#btn:hover{
+    background-color: yellow;
+}
+.midreg{
+    position: relative;
+    top: 50px;
+    left: 280px;
+    width:55%;
+    background-color: lightblue;
+}
+.rbtn{
+    width: 140px !important;
+}
+.cb{
+    position: relative;
+    top: 60px;
+    left: -120px;
+    width: 20px;
+}
+.imgpro{
+    width: 320px;
+    height: 250px;
+}
+.namepro{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.pricepro{
+    font-size: larger;
+}
+.allproducts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.eachpro{
+    border: 1px solid lightblue;
+    margin-bottom: 50px;
+}
+.full{
+    display: flex;
+
+}
+.eachimg{
+    width: 500px;
+    height: 450px;
+    margin-top:50px ;
+    margin-left: 50px;
+}
+.eachdes{
+    color:blue;
+    width: 300px;
+}
+.cost{
+    font-size: larger;
+    margin-bottom: 50px;
+}
+.cart{
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+}
+.f2{
+    margin: 100px;
+}
+.count{
+    margin: 20px;
+}
+.quantity{
+    margin: 20px;
+}
+.pname{
+    font-size: larger;
+    font-weight: 600;
+}
+.c1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.cartimg{
+    width: 100px;
+    height: 100px;
+}
+.iconsize{
+    font-size: xx-large;
+}
+*{
+    font-size: large;
+}
+.quantity{
+    font-size: xx-large !important;
+}
+.c1{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px;
+}
+.pri{
+    background-color: black;
+    color: antiquewhite;
+    height: 30px;
+    width: 140px;
+    padding-top: 8px;
+    border-radius: 5px;
+}
+.totalAmount{
+    background-color: red;
+    height: 50px;
+}

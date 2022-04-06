@@ -45,7 +45,7 @@ const Eachproduct=()=>{
             product["quantity"]=quantity;
             console.log(product);
             if(quantity>0){
-                const res=await axios.post("/order/cart/add",product,{headers:{Authorization:"test "+istokenAvailable}});
+                const res=await axios.post("https://e-commerce-backend123.herokuapp.com/order/cart/add",product,{headers:{Authorization:"test "+istokenAvailable}});
                 // console.log(res.data.data);
                 navigate('/cart');           
             }else{

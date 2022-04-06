@@ -24,7 +24,7 @@ const Cart=()=>{
             navigate("/");
         }
         async function fetchData(){
-            const res=await axios.get("/order/cart/get",{headers:{Authorization:"test "+istokenAvailable}});
+            const res=await axios.get("https://e-commerce-backend123.herokuapp.com/order/cart/get",{headers:{Authorization:"test "+istokenAvailable}});
             // console.log(res.data.data);
             setproduct(res.data.data);
             if(!res.data.data){
@@ -37,7 +37,7 @@ const Cart=()=>{
     const oneDelete=(id)=>{
         console.log(id);
         async function dataDelete(){
-            const res=await axios.delete(`/order/cart/delete/${id}`,{headers:{Authorization:"test "+istokenAvailable}});
+            const res=await axios.delete(`https://e-commerce-backend123.herokuapp.com/order/cart/delete/${id}`,{headers:{Authorization:"test "+istokenAvailable}});
             console.log(res.data.data)
             window.location.reload(false)
         }

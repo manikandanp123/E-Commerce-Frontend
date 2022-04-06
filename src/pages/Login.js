@@ -26,7 +26,7 @@ const Login = () => {
         }
         try{
             console.log(user);
-            const res=await axios.post("/login",user);
+            const res=await axios.post("https://e-commerce-backend123.herokuapp.com/login",user);
             console.log(res.data);
             let token=res.data.token;
             console.log(token);

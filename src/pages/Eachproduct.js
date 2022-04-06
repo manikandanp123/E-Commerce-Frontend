@@ -19,7 +19,7 @@ const Eachproduct=()=>{
 
     useEffect(()=>{
         async function fetchData(){
-            const res=await axios.get(`/${name}`);
+            const res=await axios.get(`https://e-commerce-backend123.herokuapp.com/${name}`);
             // console.log(res.data.data);
             setproduct(res.data.data);
         }

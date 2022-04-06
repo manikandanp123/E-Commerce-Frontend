@@ -12,7 +12,7 @@ const Homepage=()=>{
 
     useEffect(()=>{
         async function fetchData(){
-            const res=await axios.get("/products");
+            const res=await axios.get("https://e-commerce-backend123.herokuapp.com/products");
             console.log(res.data.user);
             setproducts(res.data.user);
         }
